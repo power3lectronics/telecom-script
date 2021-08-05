@@ -328,7 +328,6 @@ getHandsetData(){ # function to retrieve model and manufacturer information
     MANUFACTURER=$(echo $MANUFACTURER | tr '[:lower:]' '[:upper:]')
 }
  
- 
 templateSearchSsh(){
     echo
     getHandsetData
@@ -404,7 +403,6 @@ template(){
     echo
     goBackToMenu
 }
- 
  
 goBackToMenu(){
     echo -n "Back to Menu? [y/n] "
