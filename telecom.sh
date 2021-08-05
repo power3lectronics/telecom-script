@@ -21,7 +21,6 @@ verifyHost(){ # verify the current host
     fi # endif - host
 }
  
- 
 trails(){
     cd (PRIVATE_DATA)
     if test $? -eq 1
@@ -255,7 +254,6 @@ searchAgainSsh(){ # used on templates
     fi # verify answer
 }
  
- 
 getGenericSsh(){
     echo "**************************************************************"
     echo "* MODEL NOT FOUND. IT MAY RECIEVES GENERIC TEMPLATE SETTINGS *"
@@ -361,7 +359,6 @@ templateSearchSsh(){
     echo
     goBackToMenu
 }
- 
  
 template(){
     echo
