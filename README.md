@@ -1,5 +1,7 @@
 # telecom-script
 
+Shell Script that I've developed as an intern in a telecommunication company:
+
 - Developed for managing SIM Cards data in Over-The-Air (OTA) telecom platforms;
 - Quick access to SIM Cards data;
 - Executed in RedHat Linux environment;
